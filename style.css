@@ -51,6 +51,20 @@ button {
     border-radius: 0.1rem;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.footer-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 button:hover {
     background-color: #6DAEDB;
 }
