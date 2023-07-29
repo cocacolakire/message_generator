@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message generator</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <main>
         <div class="message_container">
-            <h2 id="rand_msg"></h2>
+            <span id="rand_msg"></span>
+            <span id="author"></span>
         </div>
         <div class="button_container">
-            <button name="button" id="msg_generate" type="button">
+            <button name="button" id="msg_generate" onclick="getQuote()" type="button">
                 Generate Message
             </button>
         </div>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
